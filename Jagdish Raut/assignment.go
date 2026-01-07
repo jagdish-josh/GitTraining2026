@@ -26,6 +26,14 @@ func fibonacci (num int) int{
 	return fibonacci(num-1) + fibonacci(num-2)
 }
 
+func factorial (num int) int{
+	if num <= 1{
+		return 1
+	}
+
+	return num * factorial(num-1)
+}
+
 
 
 func main(){
@@ -41,8 +49,16 @@ func main(){
 
 	fmt.Println("Enter number: ")
 	fmt.Scan(&num)
-	
 	fmt.Println("the",num ,"th fibonacci number is", fibonacci(num))
+
+	if num < 15 {		
+	fmt.Println("the factorial of ",num ," is", factorial(num))
+
+	}else
+	{
+		fmt.Println("factorial is too high")
+	}
+
 	
 
 }
