@@ -26,8 +26,3 @@ OR
 - Clone the repo
 - Create a feature branch
 - Push directly to the repo
-
-
-Name: Irfan Mohammad
-Date: 08-01-2026
-Interested Project: Backend Development / ML Projects
